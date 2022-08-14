@@ -75,11 +75,14 @@ def print_results(results_dic, results_stats_dic, model,
     #          that's accessed by key 'n_notdogs_img' using dictionary 
     #          results_stats_dic
     #
-    print("")
+    print("{:20}: {:3d}".format('N Not-Dog Images', results_stats_dic['n_notdogs_img']))
 
 
     # Prints summary statistics (percentages) on Model Run
-    print(" ")
+    print('pet_match',results_stats_dic['pct_match'])
+    print('pct_correct_dogs',results_stats_dic['pct_correct_dogs'])
+    print('pct_correct_breed',results_stats_dic['pct_correct_breed'])
+    print('pct_correct_notdogs', results_stats_dic['pct_correct_notdogs'])
     for key in results_stats_dic:
         
         if 'pct' in results_stats_dic:
