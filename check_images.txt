@@ -17,4 +17,4 @@ Answer: Yes, all the three model architectures correctly identify all the non do
 
 4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
 
-Answer: I think all the model did best for my uploaded images but still I like vgg architectures, because I have read about this architecture only and there I found out that vgg performs wells for classification of images.
+Answer: I think all the model did best for my uploaded images but the overall accuracy is better in vgg, and also I have read about this architecture and there I found out that vgg performs wells for classification of images.
