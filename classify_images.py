@@ -73,7 +73,7 @@ def classify_images(images_dir, results_dic, model):
     # classifier function
     for key in results_dic:
        
-       classifier_label = classifier(images_dir+"/"+key, 'vgg')
+       classifier_label = classifier(images_dir+"/"+key, model)
       
        classifier_label = classifier_label.strip()
        classifier_label = classifier_label.lower()
